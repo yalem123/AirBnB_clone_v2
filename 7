@@ -117,7 +117,7 @@ class HBNBCommand(cmd.Cmd):
         """ usage:create <Class> <key 1>=<value 2> <key 2>=<value 2> ...
             create a new class instance with a given key/values.
          """
-         try:
+           try:
              if not line:
                  raise SyntaxError()
              my_list = line.split(" ")
