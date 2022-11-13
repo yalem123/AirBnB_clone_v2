@@ -4,9 +4,9 @@ The application listens on 0.0.0.0, port 5000.
 Routes:
     /: Displays 'Hello HBNB!'
 """
-from flask import flask
+from flask import Flask
 
-app = flask(__name__)
+app = Flask(__name__)
 
 
 @app.route("/", strict_slashes=False)
